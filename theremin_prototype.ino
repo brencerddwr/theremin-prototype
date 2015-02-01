@@ -5,15 +5,15 @@ Created by Richard Bailey as a proof of concept and prototype for potential kit 
 #include "toneAC/toneAC.h"		//tone library that provides software volume control and louder output.
 
 //  set tone frequency range (frequency is in hertz)
-#define freq_bottom 120
-#define freq_top 17000
+#define freq_bottom 800
+#define freq_top 3000
 
 // NewPing global variable setup for multiple sensors (copied from 15 sensor example)
 
-#define SONAR_NUM     2 // Number or sensors.
+#define SONAR_NUM    2 // Number or sensors.
 #define MIN_DISTANCE 3  // Minimum distance (in cm) to use. CANNOT be less than 2, limit of sensor
-#define MAX_DISTANCE 20 // Maximum distance (in cm) to ping.
-#define PING_INTERVAL 29 // Milliseconds between sensor pings (29ms is about the min to avoid cross-sensor echo).
+#define MAX_DISTANCE 30 // Maximum distance (in cm) to ping.
+#define PING_INTERVAL 65 // Milliseconds between sensor pings (29ms is about the min to avoid cross-sensor echo).
 #define MIN_TIME MIN_DISTANCE*57  // calculate minimum time for ping for min distance
 #define MAX_TIME MAX_DISTANCE*57 //calculate maximum time for ping for max distance
 
@@ -65,14 +65,14 @@ void oneSensorCycle() { // Sensor ping cycle complete, do something with the res
 		Serial.print(pingtime[i]);
 		Serial.print("microseconds ");
 	}
-	Serial.println();
+	Serial.println(); 
 	if (pingtime[0]<MIN_TIME)
 	{
 		tone_freq = 0;
 	}
 	else
 	{
-		tone_freq = map(pingtime[0],MIN_TIME,MAX_TIME, freq_bottom, freq_top);
+		tone_freq = map(pingtime[0],1030,MAX_TIME, freq_top, freq_bottom);
 	}
 	if (pingtime[1]<MIN_TIME)
 	{
@@ -80,7 +80,8 @@ void oneSensorCycle() { // Sensor ping cycle complete, do something with the res
 	}
 	else
 	{
-		tone_volume = map(pingtime[1],MIN_TIME,MAX_TIME,200, 1);
-	}
+		tone_volume = map(pingtime[1],1030,MAX_TIME,75,1);
+		
+	} 
 	toneAC(tone_freq,tone_volume,0,true);
 }
