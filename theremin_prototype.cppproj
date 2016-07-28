@@ -28,15 +28,15 @@
     <BootSegment>0</BootSegment>
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.10.1" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.10.1" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <preserveEEPROM>true</preserveEEPROM>
   </PropertyGroup>
@@ -54,7 +54,7 @@
     <ListValues>
       <Value>__AVR_ATmega328p__</Value>
       <Value>__AVR_ATmega328P__</Value>
-      <Value>ARDUINO=106</Value>
+      <Value>ARDUINO=161</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -63,20 +63,20 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino</Value>
+      <Value>../../theremin_prototype</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -90,7 +90,7 @@
     <ListValues>
       <Value>__AVR_ATmega328p__</Value>
       <Value>__AVR_ATmega328P__</Value>
-      <Value>ARDUINO=106</Value>
+      <Value>ARDUINO=161</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -99,20 +99,20 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino</Value>
+      <Value>../../theremin_prototype</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -123,7 +123,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard;D:/Users/Richard/Documents/Arduino/libraries/NewPing;D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility;D:/Users/Richard/Documents/Arduino/libraries/toneAC;D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;D:/Users/Richard/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard;D:/Users/Richard/Documents/Arduino/libraries/NewPing;D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility;D:/Users/Richard/Documents/Arduino/libraries/toneAC;D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;D:/Users/Richard/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/;;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;../../theremin_prototype;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings xmlns="">
         <arduino.upload.port>COM9</arduino.upload.port>
@@ -144,7 +144,7 @@
     <ListValues>
       <Value>__AVR_ATmega328p__</Value>
       <Value>__AVR_ATmega328P__</Value>
-      <Value>ARDUINO=106</Value>
+      <Value>ARDUINO=161</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -153,20 +153,20 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino</Value>
+      <Value>../../theremin_prototype</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
@@ -180,7 +180,7 @@
     <ListValues>
       <Value>__AVR_ATmega328p__</Value>
       <Value>__AVR_ATmega328P__</Value>
-      <Value>ARDUINO=106</Value>
+      <Value>ARDUINO=161</Value>
       <Value>ARDUINO_MAIN</Value>
       <Value>F_CPU=16000000L</Value>
       <Value>__AVR__</Value>
@@ -189,20 +189,20 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value></Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/</Value>
-      <Value>c:/program files (x86)/arduino/hardware/tools/avr/avr/include/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/libraries</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/toneAC</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility</Value>
       <Value>D:/Users/Richard/Documents/Arduino/libraries/NewPing</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino</Value>
+      <Value>../../theremin_prototype</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize (-O1)</avrgcccpp.compiler.optimization.level>
@@ -213,7 +213,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard;D:/Users/Richard/Documents/Arduino/libraries/NewPing;D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility;D:/Users/Richard/Documents/Arduino/libraries/toneAC;D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;D:/Users/Richard/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/;;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/Arduino/hardware/arduino/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/variants/standard;D:/Users/Richard/Documents/Arduino/libraries/NewPing;D:/Users/Richard/Documents/Arduino/libraries/NewPing/utility;D:/Users/Richard/Documents/Arduino/libraries/toneAC;D:/Users/Richard/Documents/Arduino/libraries/toneAC/utility;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;D:/Users/Richard/Documents/Arduino/libraries;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/;c:/program files (x86)/arduino/hardware/tools/avr/avr/include/avr/;c:/program files (x86)/arduino/hardware/tools/avr/avr/;c:/program files (x86)/arduino/hardware/tools/avr/lib/gcc/avr/4.3.2/include/;;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;../../theremin_prototype;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/avr;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings xmlns="">
         <arduino.upload.port>COM9</arduino.upload.port>
